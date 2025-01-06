@@ -15,7 +15,7 @@
     width: 100%; /* Full width of the viewport */
     height: 100%; /* Full height of the parent container */
      /* Fallback background color */
-    background-image: url("barber.jpg");
+    background-image: url("/barber.jpg");
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
