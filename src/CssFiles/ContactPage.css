@@ -171,7 +171,7 @@ input[type="text"]:focus, textarea:focus {
  
     transform: translateX(-50%);
     top: 70%;
-    background: url("barber-shop-7226341_1280.jpg");
+    background: url("/barber-shop-7226341_1280.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
