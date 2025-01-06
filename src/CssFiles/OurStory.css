@@ -1,0 +1,78 @@
+.story-container {
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+    background-color: #333;
+    display: flex; /* Keep items in a row */
+    position: relative; /* Enable relative positioning for child elements */
+    padding: 0 5rem;
+    overflow: hidden; /* Prevent any overflow */
+  }
+  
+  .story-image {
+    width: 50%; /* Adjust width for image */
+    height: 80%;
+    background-image: url("barber_story.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Keeps it in the flow */
+    margin-top: 8%;
+    margin-left: 6%;
+  }
+  .ourstoryline
+  {
+    color: red;
+    font-size: 1rem;
+    padding: 4px;
+  }
+  .story-text h1{
+  
+   font-family: cursive;
+   padding-bottom: 20px;
+
+  }
+  .story-text {
+    background-color:rgb(221, 218, 218);
+    width: 35%; /* Adjust width for text block */
+     /* Slightly smaller height to emphasize overlap */
+    position: absolute; /* Allows overlapping */
+
+    margin-top: 10%;
+    right: 200px; /* Aligns to the right edge */
+    padding: 30px  50px 90px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+   
+  }
+  @media (max-width: 768px) {
+    .story-container {
+      flex-direction: column; /* Stack elements vertically */
+      height: auto; /* Allow dynamic height */
+      padding: 10px;
+      position: relative; /* Enable positioning for child elements */
+    }
+  
+    .story-text {
+      position: static; /* Keep it in the flow */
+      width: 100%; /* Full width for text */
+      height: auto; /* Dynamic height */
+      margin-bottom: 90px;
+      padding-bottom: 90px; /* Add some spacing */
+    }
+  
+    .story-image {
+      width: 200px; /* Adjust width for smaller image */
+      height: 150px; /* Adjust height */
+      position: absolute; /* Allow precise positioning */
+      right: 10px; /* Position on the right */
+      bottom: 10px; /* Position at the bottom */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    
+    }
+  }
+  

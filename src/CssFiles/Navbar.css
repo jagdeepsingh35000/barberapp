@@ -1,0 +1,180 @@
+/* General Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    position: sticky;top: 0;
+  
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+  }
+  
+  .book-appoin {
+    font-size: 1.2rem;
+    color: #ffa500;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .book-appoin:hover {
+    color: #fff;
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  #list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  #list li {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #list li:hover {
+    color: #ffa500;
+  }
+  
+  button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button img {
+    width: 32px;
+    height: 32px;
+  }
+  .ham-menu
+  {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+  }
+  
+  
+  .nav-text {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .nav-text p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  .professinalbarbershop
+  {
+    letter-spacing: 5px;
+  }
+  
+  .nav-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #ffa500;
+  }
+  
+  .nav-text p:last-child {
+    font-style: italic;
+    color: #aaa;
+  }
+   */
+  
+  /* Responsive Design
+  @media (max-width: 768px) {
+
+    .nav-list
+    {
+      display: flex;
+      justify-content: space-between;
+      border: none;
+      box-shadow: none;
+    }
+    .list-container {
+      background-color: #333;
+      height: 100vh;
+      width: 100%;
+      max-width: 450px;
+      position: fixed;
+      top: 0;
+      right: -450px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      transition: 0.9s ease;
+    
+    }
+  
+    .list-container.active {
+   right: 0;
+     
+    }
+  
+    #list {
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 10rem;
+    }
+  
+    .hamburgerbtn {
+      display: block;
+    }
+    
+
+    .close-button {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+        color: white;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 20;
+        transition: color 0.3s;
+        display: block;
+      }
+    
+      .close-button:hover {
+        color: #ffa500;
+      }
+      .nav-text p {
+        font-size: 1rem;
+        
+      }
+      .nav-text {
+       
+        margin: 1rem;
+      }
+  
+  } */
