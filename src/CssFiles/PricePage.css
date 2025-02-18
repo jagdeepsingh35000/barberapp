@@ -113,7 +113,7 @@
     color: rgb(53,219,169);
   }
 
-  @media (max-width: 768px) {
+  @media  (max-width: 1250px) {
 
     .price-container 
     {

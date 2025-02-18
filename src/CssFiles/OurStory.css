@@ -2,10 +2,12 @@
     width: 100%;
     height: 500px; /* Adjust as needed */
     background-color: #333;
+   
     display: flex; /* Keep items in a row */
     position: relative; /* Enable relative positioning for child elements */
     padding: 0 5rem;
     overflow: hidden; /* Prevent any overflow */
+    
   }
   
   .story-image {
@@ -47,6 +49,40 @@
    
    
   }
+
+  @media(max-width:1250px)
+  {
+    
+    .story-container {
+      flex-direction: column; /* Stack elements vertically */
+      height: auto; /* Allow dynamic height */
+      /* padding: 10px; */
+      
+      position: relative; /* Enable positioning for child elements */
+    }
+  
+    .story-text {
+      position: static; /* Keep it in the flow */
+      width: 100%; /* Full width for text */
+      height: auto; /* Dynamic height */
+      margin-top: 2%;
+      margin-bottom: 90px;
+      padding-bottom: 90px; /* Add some spacing */
+    }
+  
+    .story-image {
+      width: 200px; /* Adjust width for smaller image */
+      height: 150px; /* Adjust height */
+      position: absolute; /* Allow precise positioning */
+      right: 10px; /* Position on the right */
+      bottom: 10px; /* Position at the bottom */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    
+    }
+  }
+  
   @media (max-width: 768px) {
     .story-container {
       flex-direction: column; /* Stack elements vertically */

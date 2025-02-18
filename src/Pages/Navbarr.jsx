@@ -75,7 +75,7 @@ export default function Navbarr({ onScrollToSection }) {
           onClick={() => handleScrollToSection("contact")} // Scroll to Contact section
           style={{ cursor: "pointer" }}
         >
-          Book an Appointment!
+           Walking shop in Stratford!!
         </div>
 
         <div className={`nav2 ${menuOpen ? "active" : ""}`}>
@@ -107,8 +107,8 @@ export default function Navbarr({ onScrollToSection }) {
       {activeSection === "welcome" && (
         <div className="nav-text">
           <p className="professinalbarbershop">PROFESSIONAL BARBERSHOP</p>
-          <h2 className="professinalbarbershop">BECKETTE</h2>
-          <span>Since 1978</span>
+          <h2 className="professinalbarbershop">MAN_FADEZ</h2>
+          <span>Since 2025</span>
         </div>
       )}
     </div>

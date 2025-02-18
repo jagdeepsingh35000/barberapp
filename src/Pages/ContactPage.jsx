@@ -13,14 +13,15 @@ export default function ContactPage() {
           <div className="OpeninghoursandAddress">
             <div className="openinghours">
               <p className="txt">OPENING HOURS</p>
-              <p>Mon - Fri : 9am - 9pm</p>
-              <p>Saturday : 11am - 6pm</p>
-              <p>Sunday : 11am - 4pm</p>
+              <p>Tue - Fri : 8am - 8pm</p>
+              <p>Saturday : 8am - 6pm</p>
+              <p>Sunday : 10am - 6pm</p>
+              <p className="comeandget">Monday closed</p>
             </div>
             <div className="address">
               <p className="txt">OUR ADDRESS</p>
-              <p>298 Ontario street Stratford, Ontario CA N4Z1B3 </p>
-              <p>Tel: 9814663238</p>
+              <p>126 Downie  street Stratford, Ontario CA N5A 1X1 </p>
+              <p>Tel: +1 519-305-1003</p>
             </div>
             <div className="socilamediaicons">
               <a
